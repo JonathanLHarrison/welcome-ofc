@@ -1,0 +1,42 @@
+/*
+	Styles for Order From Chaos
+	Jonathan Harrison 2019
+*/
+
+/*
+	static content
+*/
+html, body, #animationContainer {
+	background-color: #fefefe;
+}
+#animationContainer {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	visibility: hidden;
+	overflow: hidden;
+}
+
+/*
+	animated content
+*/
+#orderFromChaos {
+	position: absolute;
+	width: 90%;
+	max-width: 800px;
+	height: auto;
+	overflow: visible;
+}
+#ofcWelcomeInPieces {
+	width: 100%;
+	position: relative;
+}
+#ofcWelcomeWhole {
+	visibility: hidden;
+}
+#animationContainer path {
+	fill: #222;
+}
+.ofc-piece {
+	position: absolute;
+}
